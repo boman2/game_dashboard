@@ -1,0 +1,180 @@
+{
+  "company": {
+    "name": "온라인상사",
+    "tagline": "LIVE OFFICE",
+    "ceo": "앤 셜리"
+  },
+  "statusLegend": {
+    "green": "근무 (운영중·정상)",
+    "yellow": "준비",
+    "red": "점검 (사이트 다운)",
+    "blue": "대기 (계획중)"
+  },
+  "floors": [
+    {
+      "level": 3,
+      "name": "경영·관제",
+      "color": "yellow",
+      "employees": [
+        {
+          "name": "앤 셜리",
+          "gender": "F",
+          "role": "대표",
+          "lead": true,
+          "hair": "braids-red",
+          "shirt": "#2e7d32",
+          "status": "green",
+          "bubble": "전체 잘 돌아가는 중",
+          "tasks": [
+            {
+              "title": "회사 총괄",
+              "state": "운영중"
+            }
+          ]
+        },
+        {
+          "name": "매튜",
+          "gender": "M",
+          "role": "관제 · 전체 현황 모니터링",
+          "hair": "short-gray",
+          "shirt": "#5d4037",
+          "status": "green",
+          "bubble": "모니터링 중",
+          "tasks": [
+            {
+              "title": "전 사이트 상태 통합 감시",
+              "state": "운영중"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "제작·자동화",
+      "color": "blue",
+      "employees": [
+        {
+          "name": "다이애나",
+          "gender": "F",
+          "role": "팀장 · 카드뉴스 자동화",
+          "lead": true,
+          "hair": "long-black",
+          "shirt": "#8e24aa",
+          "status": "green",
+          "bubble": "카드뉴스 굽는 중",
+          "tasks": [
+            {
+              "title": "코스트코 할인상품 카드뉴스 자동화",
+              "state": "운영중"
+            }
+          ]
+        },
+        {
+          "name": "길버트",
+          "gender": "M",
+          "role": "상세페이지 자동화",
+          "hair": "short-brown",
+          "shirt": "#1565c0",
+          "status": "green",
+          "bubble": "상세페이지 작업 중",
+          "tasks": [
+            {
+              "title": "코스트코 할인상품 상세페이지 자동화",
+              "state": "운영중"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "name": "사업부",
+      "color": "green",
+      "employees": [
+        {
+          "name": "레이첼",
+          "gender": "F",
+          "role": "사업부장 · 판매 본진",
+          "lead": true,
+          "hair": "bun-brown",
+          "shirt": "#e53935",
+          "status": "green",
+          "bubble": "상품 등록 중",
+          "site": "주간코코 앱(웹/iOS/Android)",
+          "url": "https://weeklycoco.kr",
+          "tasks": [
+            {
+              "title": "주간코코 앱 상품등록 (매주 월~화)",
+              "state": "운영중"
+            },
+            {
+              "title": "스마트스토어·카카오쇼핑 할인상품 판매",
+              "state": "운영중"
+            }
+          ],
+          "lastCheck": "2026-06-19T11:35:14.120Z",
+          "lastCode": 200
+        },
+        {
+          "name": "마릴라",
+          "gender": "F",
+          "role": "수집 · 크롤링 자동화",
+          "hair": "bun-gray",
+          "shirt": "#00897b",
+          "status": "green",
+          "bubble": "크롤링 수집 중",
+          "tasks": [
+            {
+              "title": "코스트코 사이트 크롤링 → 주간코코 등록",
+              "state": "운영중"
+            },
+            {
+              "title": "코코홀릭 사이트 크롤링 → 주간코코 등록",
+              "state": "운영중"
+            }
+          ]
+        },
+        {
+          "name": "뮤리엘",
+          "gender": "F",
+          "role": "콘텐츠 · 제휴 · 신규",
+          "hair": "wavy-brown",
+          "shirt": "#fb8c00",
+          "status": "green",
+          "bubble": "콘텐츠 운영 중",
+          "tasks": [
+            {
+              "title": "제휴수익 (애드센스·쿠팡파트너스·브랜드커넥트)",
+              "state": "운영중"
+            },
+            {
+              "title": "구글블로그·인스타그램 자동화",
+              "state": "운영중"
+            },
+            {
+              "title": "유튜브리뷰·네이버클립·틱톡",
+              "state": "계획중"
+            },
+            {
+              "title": "워드프레스 일본어 블로그 (뉴스 자동화)",
+              "state": "계획중"
+            },
+            {
+              "title": "일본어 유튜브 쇼츠·롱폼",
+              "state": "계획중"
+            },
+            {
+              "title": "쿠팡파트너스 쇼츠 (유튜브·틱톡·클립)",
+              "state": "계획중"
+            },
+            {
+              "title": "흔한자매 캐릭터 이야기 유튜브",
+              "state": "계획중"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
