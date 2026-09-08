@@ -99,7 +99,7 @@
           "lead": true,
           "hair": "bun-brown",
           "shirt": "#e53935",
-          "status": "green",
+          "status": "red",
           "bubble": "상품 등록 중",
           "site": "주간코코 앱(웹/iOS/Android)",
           "url": "https://weeklycoco.kr",
@@ -113,8 +113,8 @@
               "state": "운영중"
             }
           ],
-          "lastCheck": "2026-09-08T17:28:37.406Z",
-          "lastCode": 200
+          "lastCheck": "2026-09-08T20:03:38.470Z",
+          "lastCode": "TIMEOUT"
         },
         {
           "name": "마릴라",
